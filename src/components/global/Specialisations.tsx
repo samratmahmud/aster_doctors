@@ -1,4 +1,5 @@
 import Packages from "@/components/common/Packages";
+import Link from "next/link";
 import React from "react";
 
 let specialist = [
@@ -37,11 +38,13 @@ function Specialisations() {
                 your family safe & healthy.
               </div>
             </div>
-            <div className="text-emerald-500 border-[3px] border-emerald-500 rounded-[20px] w-full mb-6 lg:mb-0 max-w-[312px]">
-              <Packages name="View More" />
+            <div className="text-emerald-500 border-[3px] border-emerald-500 rounded-[20px] w-full max-w-[312px] hidden lg:block">
+              <Link href={""}>
+                <Packages name="View More" />
+              </Link>
             </div>
           </div>
-          <div className="lg:flex grid justify-between gap-7">
+          <div className="lg:flex grid justify-between gap-7 mb-6 lg:mb-0">
             {specialist.map((item, index) => (
               <div key={index} className="p-4 bg-gray-50 rounded-[20px]">
                 <div className="mb-5">
@@ -52,6 +55,11 @@ function Specialisations() {
                 </div>
               </div>
             ))}
+          </div>
+          <div className="text-emerald-500 border-[3px] border-emerald-500 rounded-[20px] w-full max-w-[312px] lg:hidden">
+            <Link href={""}>
+              <Packages name="View More" />
+            </Link>
           </div>
         </div>
       </div>

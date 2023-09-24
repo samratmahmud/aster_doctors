@@ -26,7 +26,6 @@ export default function Homepage() {
       <BlogPost />
       <Career />
       <Footer />
-      {/* <PageList /> */}
     </div>
   );
 }

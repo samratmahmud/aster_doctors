@@ -32,11 +32,11 @@ function DrProfile() {
                 alt=""
               />
             </div>
-            <div className="flex flex-col gap-10 mb-10 lg:mb-0">
+            <div className="flex flex-col lg:gap-10 gap-4 mb-10 lg:mb-0">
               <Quality name="LANGUAGES" title="English, Arabic" />
               <Quality
                 name="EDUCATION"
-                title="MD, FRCPC, ABIM, ABIM(CV), FACC, FSCAI"
+                title="MD, FRCPC, ABIM, ABIM (CV), FACC, FSCAI"
               />
               <Quality name="SPECIALIZATION" title="Cardiology" />
               <Quality name="NATIONALITY" title="Omani" />

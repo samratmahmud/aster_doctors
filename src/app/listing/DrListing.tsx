@@ -24,8 +24,8 @@ function DrListing() {
               </span>
             </div>
           </div>
-          <div className="lg:flex gap-12 lg:mb-[70px] mb-10">
-            <div className="lg:text-xl text-md font-medium text-[rgba(30,_30,_30,_0.50)] lg:max-w-[655px] mb-7 lg:mb-0">
+          <div className="flex flex-col-reverse lg:flex-row lg:gap-12 gap-7 lg:mb-[70px] mb-10">
+            <div className="lg:text-xl text-md font-medium text-[rgba(30,_30,_30,_0.50)] lg:max-w-[655px]">
               The Nutrition and Dietetics Department at Aster DM Healthcare is
               committed to helping patients achieve and maintain optimal health
               through comprehensive dietary assessments, consultations, and
@@ -45,7 +45,7 @@ function DrListing() {
               <img src="/picture/image 24.png" alt="" />
             </div>
           </div>
-          <div className="bg-emerald-500 text-gray-50 rounded-[20px] max-w-[306px] m-auto text-center">
+          <div className="bg-emerald-500 text-gray-50 rounded-xl max-w-[306px] m-auto text-center">
             <Packages name="View More" />
           </div>
         </div>

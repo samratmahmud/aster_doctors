@@ -4,7 +4,7 @@ import React from "react";
 function HealthCare() {
   return (
     <div className="container">
-      <div className="lg:flex justify-center items-center gap-[75px] p-5 border-[3px] border-sky-100 lg:mb-[75px] mb-7 rounded-[32px]">
+      <div className="lg:flex justify-center items-center gap-[75px] p-5 border-[3px] border-sky-100 lg:mb-[75px] mb-6 rounded-[32px]">
         <div>
           <img
             className="w-full mb-7 lg:mb-0"
@@ -36,7 +36,7 @@ function HealthCare() {
               <HealthInfo name="Home Care Services" />
             </div>
             <hr className="h-[3px] bg-sky-100 mb-6" />
-            <div className="mb-6">
+            <div className="">
               <HealthInfo name="Aster Maternity Packages" />
             </div>
           </div>

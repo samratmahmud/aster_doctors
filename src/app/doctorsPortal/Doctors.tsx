@@ -44,6 +44,20 @@ let doctorsList = [
     btn: "Book an Appointment",
     call: "/picture/image 28.svg",
   },
+  {
+    pic: "/picture/image 25.png",
+    name: "Dr. Hatim Ali Al Lawati",
+    title: "General Practitioner Dental",
+    btn: "Book an Appointment",
+    call: "/picture/image 28.svg",
+  },
+  {
+    pic: "/picture/image 25.png",
+    name: "Dr. Hatim Ali Al Lawati",
+    title: "General Practitioner Dental",
+    btn: "Book an Appointment",
+    call: "/picture/image 28.svg",
+  },
 ];
 
 let specility = [
@@ -84,7 +98,7 @@ function Doctors() {
               <div className="mb-5 lg:mb-0">
                 <div className="flex justify-between items-center gap-5 mb-1">
                   <div>Doctor's</div>
-                  <select className="focus:outline-none" name="text" id="">
+                  <select className="focus:outline-none" name="text" id="add">
                     <option value="text"></option>
                     <option value="text">Dr. Hatim</option>
                   </select>
@@ -94,7 +108,7 @@ function Doctors() {
               <div className="mb-5 lg:mb-0">
                 <div className="flex justify-between items-center gap-5 mb-1">
                   <div>Specialities</div>
-                  <select className="focus:outline-none" name="text" id="">
+                  <select className="focus:outline-none" name="text" id="add">
                     <option value="text"></option>
                     <option value="text">Cardiology</option>
                   </select>
@@ -104,7 +118,7 @@ function Doctors() {
               <div className="mb-5 lg:mb-0">
                 <div className="flex justify-between items-center gap-5 mb-1">
                   <div>Location</div>
-                  <select className="focus:outline-none" name="text" id="">
+                  <select className="focus:outline-none" name="text" id="add">
                     <option value="text"></option>
                     <option value="text">Bangaldesh</option>
                   </select>
@@ -114,7 +128,7 @@ function Doctors() {
               <div className="mb-5 lg:mb-0">
                 <div className="flex justify-between items-center gap-5 mb-1">
                   <div>Languages</div>
-                  <select className="focus:outline-none" name="text" id="">
+                  <select className="focus:outline-none" name="text" id="add">
                     <option value="text"></option>
                     <option value="text">Bangla</option>
                     <option value="text">English</option>
@@ -122,11 +136,13 @@ function Doctors() {
                 </div>
                 <hr className="h-1 bg-sky-100 w-full" />
               </div>
-              <Link href={""}>
-                <button className="text-base font-semibold capitalize bg-emerald-500 rounded-full py-2 px-8">
-                  Search
-                </button>
-              </Link>
+              <label htmlFor="add">
+                <Link href={""}>
+                  <button className="text-base font-semibold capitalize bg-emerald-500 rounded-full py-2 px-8">
+                    Search
+                  </button>
+                </Link>
+              </label>
             </div>
           </div>
           <div className="grid lg:grid-cols-2 justify-between gap-7">
@@ -180,8 +196,8 @@ function Doctors() {
                     </div>
                   </div>
                 </div>
-                <hr className="h-[3px] w-full bg-sky-100 mb-7" />
-                <div className="text-center">
+                <hr className="h-[3px] w-full bg-sky-100  " />
+                <div className="text-center lg:py-7 py-3">
                   <Link
                     href={""}
                     className="text-base font-medium text-emerald-500"

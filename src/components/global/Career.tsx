@@ -14,7 +14,7 @@ function Career() {
               <Packages name="CAREER" />
             </div>
           </div>
-          <div className="lg:text-base text-md text-justify lg:text-left font-medium text-[rgba(255,_255,_255,_0.80)]">
+          <div className="lg:text-base text-sm font-medium text-[rgba(255,_255,_255,_0.80)]">
             Journey into the heart of healthcare innovation at Aster Pharmacy.
             Fueled by the desire to redefine Saudi Arabia's healthcare
             landscape, we blend innovation with compassion, crafting a healthier

@@ -6,7 +6,7 @@ import AllDoctors from "../home/AllDoctors";
 import Career from "@/components/global/Career";
 import Footer from "@/components/global/Footer";
 
-function PageList() {
+function page() {
   return (
     <div>
       <Navbar />
@@ -19,4 +19,4 @@ function PageList() {
   );
 }
 
-export default PageList;
+export default page;

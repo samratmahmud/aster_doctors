@@ -1,4 +1,5 @@
 import Packages from "@/components/common/Packages";
+import Link from "next/link";
 import React from "react";
 
 let contractSide = [
@@ -35,7 +36,9 @@ function Header() {
             The latest addition to the aster family
           </div>
           <div className="lg:mb-[120px] mb-10 text-gray-50 border-[3px] border-gray-50 rounded-xl max-w-[306px]">
-            <Packages name="View Packages" />{" "}
+            <Link href={""}>
+              <Packages name="View Packages" />
+            </Link>
           </div>
           <div className="">
             <div className="lg:text-3xl text-xl font-semibold text-gray-50 py-5 text-center bg-sky-800 rounded-t-3xl">

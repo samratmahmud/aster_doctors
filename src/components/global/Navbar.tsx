@@ -46,7 +46,7 @@ function Navbar() {
   return (
     <div className="container">
       <div className="flex justify-between items-center lg:gap-5 gap-3 py-4">
-        <div className="flex-shrink-0">
+        <div className="md:flex-shrink-0">
           <Link href={"/"}>
             <img src="/picture/Aster_Pharmacy__1___1_ 1.svg" alt="" />
           </Link>
@@ -66,8 +66,8 @@ function Navbar() {
           </div>
         </div>
         <div className="flex gap-5 items-center">
-          <div className="flex gap-5 items-center flex-shrink-0">
-            <div className="text-sm font-bold text-white bg-sky-800 py-2.5 px-7 rounded-full">
+          <div className="flex gap-5 items-center">
+            <div className="text-sm font-bold text-white bg-sky-800 md:py-2.5 py-1.5 md:px-7 px-4 rounded-full cursor-pointer">
               EN
             </div>
             <div className="hidden sm:block">
@@ -93,7 +93,10 @@ function Navbar() {
               </Link>
             </div>
           </div>
-          <div onClick={toggle} className="xl:hidden cursor-pointer">
+          <div
+            onClick={toggle}
+            className="xl:hidden cursor-pointer flex-shrink-0"
+          >
             <img src="/picture/icons8-menu-58.png" alt="" />
           </div>
         </div>

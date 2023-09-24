@@ -5,7 +5,7 @@ import Sliders from "@/components/global/Sliders";
 import Career from "@/components/global/Career";
 import Footer from "@/components/global/Footer";
 
-function DrPortal() {
+function page() {
   return (
     <div>
       <Navbar />
@@ -17,4 +17,4 @@ function DrPortal() {
   );
 }
 
-export default DrPortal;
+export default page;
